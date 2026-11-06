@@ -14,7 +14,7 @@
 # =============================================================================
 
 BUILD    := build
-IVERILOG := iverilog -g2012 -I rtl -y rtl
+IVERILOG := iverilog -g2005 -I rtl -y rtl
 PLOT     := uv run --python 3.12 --with matplotlib python
 
 .PHONY: test lint unit pytest system perf syn plots report clean
